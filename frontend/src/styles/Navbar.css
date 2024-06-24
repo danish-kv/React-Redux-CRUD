@@ -1,0 +1,41 @@
+/* ColorSchemesExample.module.css */
+
+.userNavbar {
+  background-color: hsl(120, 79%, 29%);
+  color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userBrand h3 {
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.userMenu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.userMenu li {
+  margin-right: 20px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.userMenu li a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,41 @@
+/* CustomNavbar.css */
+
+.custom-navbar {
+    background-color: #343a40; /* Dark background color */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    width: 100%; /* Full width */
+  }
+  
+  .custom-navbar-brand {
+    float: left; /* Align CRM to the left */
+    padding: 10px 15px; /* Padding for the brand */
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .custom-navbar-brand:hover {
+    background-color: #555; /* Darken background on hover */
+  }
+  
+  .custom-navbar-right {
+    float: right; /* Align items to the right */
+  }
+  
+  .custom-navbar-right .form-inline {
+    margin-right: 15px; /* Adjust margin for form */
+  }
+  
+  .custom-navbar-right .form-control {
+    margin-right: 10px; /* Add space between input and button */
+  }
+  
+  .custom-navbar-right .btn {
+    padding: 10px 15px; /* Padding for buttons */
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .custom-navbar-right .btn:hover {
+    background-color: #555; /* Darken background on hover */
+  }
+  
